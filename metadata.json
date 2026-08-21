@@ -1,0 +1,7 @@
+{
+  "name": "طاسه جملي | Tasa Gamali - Modern Egyptian Meat House",
+  "description": "الموقع الرسمي لمطعم طاسه جملي في مساكن شيراتون - أرقى تجربة كبدة ولحوم جملية طازجة في مصر",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

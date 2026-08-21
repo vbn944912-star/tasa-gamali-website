@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Alexandria', 'Cairo', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom scrollbar for luxury feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0e12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2c35;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4a373;
+}
+
+.copper-gradient-text {
+  background: linear-gradient(135deg, #f5d0a9 0%, #d4a373 50%, #b87333 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.copper-border {
+  border-color: rgba(212, 163, 115, 0.25);
+}
+
+.copper-glow {
+  box-shadow: 0 0 35px -10px rgba(212, 163, 115, 0.2);
+}
+
